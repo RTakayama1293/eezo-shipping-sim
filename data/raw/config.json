@@ -1,0 +1,40 @@
+{
+  "_comment": "EEZO送料・ディスカウントシミュレーション設定",
+  "_updated": "2026-02-17",
+
+  "layer1_markup": {
+    "_comment": "第1層：商品価格への送料転嫁",
+    "base_margin_rate": 0.20,
+    "shipping_buffer_per_item": 500,
+    "_note": "販売価格 = 仕入原価 / (1 - base_margin_rate) + shipping_buffer_per_item"
+  },
+
+  "layer2_fixed_shipping": {
+    "_comment": "第2層：固定送料（顧客表示）",
+    "display_amount": 1000,
+    "_note": "全国一律。実配送コストとの差分は第1層で吸収"
+  },
+
+  "layer3_discount": {
+    "_comment": "第3層：合わせ買いディスカウント",
+    "tiers": [
+      {"min_items": 2, "same_supplier": true, "discount_amount": 300, "label": "2品目割引"},
+      {"min_items": 3, "same_supplier": true, "discount_amount": 700, "label": "3品目割引"},
+      {"min_items": 4, "same_supplier": true, "discount_amount": 1200, "label": "4品目以上割引"}
+    ],
+    "_note": "同一仕入先の同梱で配送コスト増なし。転嫁分の浮きを還元"
+  },
+
+  "constraints": {
+    "min_margin_rate": 0.15,
+    "max_market_premium_rate": 0.15,
+    "_note": "粗利15%下限、市場価格比15%高までが許容範囲"
+  },
+
+  "shipping_cost_reference": {
+    "_comment": "実配送コスト基準値（関西向け5kg冷凍便）",
+    "base_5kg_kansai": 1290,
+    "cool_surcharge": 220,
+    "total_reference": 1510
+  }
+}

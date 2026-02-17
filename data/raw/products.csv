@@ -1,0 +1,13 @@
+sku,name,supplier,cost_price,selling_price,weight_g,temp_zone,category,is_hero,market_reference_price
+EZSK_SRLOIN_300,エゾシカ セロース 300g,あぷかの森,1890,4200,300,frozen,エゾシカ,TRUE,
+EZSK_MOMO_500,エゾシカ もも肉 500g,あぷかの森,1500,3500,500,frozen,エゾシカ,TRUE,
+EZSK_LOIN_300,エゾシカ ロース 300g,あぷかの森,2100,4800,300,frozen,エゾシカ,TRUE,
+EZSK_MINCHI_500,エゾシカ ミンチ 500g,あぷかの森,940,2200,500,frozen,エゾシカ,TRUE,
+EZSK_STEW_500,エゾシカ シチュー用 500g,あぷかの森,1200,2800,500,frozen,エゾシカ,TRUE,
+EZSK_SAUSAGE_200,エゾシカ ソーセージ 200g,あぷかの森,800,1800,200,frozen,エゾシカ,TRUE,
+EZSK_JERKY_50,エゾシカ ジャーキー 50g,あぷかの森,600,1500,50,ambient,エゾシカ,TRUE,
+EZSK_SET_GIFT,エゾシカ ギフトセット,あぷかの森,4500,9800,1200,frozen,エゾシカ,TRUE,
+SUP2_CHEESE_200,カマンベール 200g,仕入先B,700,1600,200,chilled,乳製品,FALSE,1400
+SUP2_BUTTER_150,発酵バター 150g,仕入先B,500,1200,150,chilled,乳製品,FALSE,1100
+SUP3_SAKE_720,純米大吟醸 720ml,仕入先C,2000,4500,1200,ambient,日本酒,FALSE,4200
+SUP3_SAKE_300,純米吟醸 300ml,仕入先C,800,1800,500,ambient,日本酒,FALSE,1700
