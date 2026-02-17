@@ -4,8 +4,8 @@ S02,単品エゾシカ低単価,ミンチ1パック試し買い,"EZSK_MINCHI_500
 S03,エゾシカ2品,ロース+もも肉のセット買い,"EZSK_LOIN_300;EZSK_MOMO_500",kansai,high
 S04,エゾシカ3品,部位食べ比べ,"EZSK_SRLOIN_300;EZSK_LOIN_300;EZSK_MOMO_500",kanto,medium
 S05,エゾシカ4品以上,まとめ買い,"EZSK_SRLOIN_300;EZSK_LOIN_300;EZSK_MOMO_500;EZSK_STEW_500",kansai,low
-S06,エゾシカ+乳製品,2仕入先混在,"EZSK_LOIN_300;SUP2_CHEESE_200",kanto,medium
-S07,エゾシカ+日本酒,2仕入先・温度帯混在,"EZSK_SET_GIFT;SUP3_SAKE_720",kansai,low
-S08,3仕入先,理論上の最悪ケース,"EZSK_MOMO_500;SUP2_CHEESE_200;SUP3_SAKE_300",kanto,very_low
+S06,エゾシカ+乳製品,2仕入先混在,"EZSK_LOIN_300;CHSE_CMBR_200",kanto,medium
+S07,エゾシカ+日本酒,2仕入先・温度帯混在,"EZSK_SET_GIFT;SAKE_DGJ_720",kansai,low
+S08,3仕入先,理論上の最悪ケース,"EZSK_MOMO_500;CHSE_CMBR_200;SAKE_GNJ_300",kanto,very_low
 S09,低単価単品・遠方,最悪粗利ケース,"EZSK_JERKY_50",okinawa,very_low
 S10,高単価まとめ・近場,最良粗利ケース,"EZSK_SET_GIFT;EZSK_SRLOIN_300;EZSK_LOIN_300",hokkaido,low
